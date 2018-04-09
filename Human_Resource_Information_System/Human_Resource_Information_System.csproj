@@ -157,6 +157,7 @@
     </Compile>
     <Compile Include="Reports\ds_payroll.cs">
       <DependentUpon>ds_payroll.xsd</DependentUpon>
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="Reports\Payroll\cumulative_payroll.cs">
       <DependentUpon>cumulative_payroll.rpt</DependentUpon>

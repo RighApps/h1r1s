@@ -85,15 +85,7 @@ namespace Human_Resource_Information_System
             {
                         try
                         {
-                            //filename = textBox1.Text;
-                            //xlApp = new Excel.Application();
-                            //xlWorkBook = xlApp.Workbooks.Open(@filename, 0, true, 5, "", "", true, Microsoft.Office.Interop.Excel.XlPlatform.xlWindows, "\t", false, false, 0, true, 1, 0);
-                            //xlWorkSheet = (Excel.Worksheet)xlWorkBook.Worksheets.get_Item(1);
-
-                            //range = xlWorkSheet.UsedRange;
-                            //rw = range.Rows.Count;
-                            //cl = range.Columns.Count;
-                            //pbar.Maximum = rw;
+                            
                             String pattern = "\\s+";
                             String replacement = " ";
                             Regex rgx = new Regex(pattern);
